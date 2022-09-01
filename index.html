@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1"
+    />
+    <meta name="description" content="Mesto" />
+    <meta name="keywords" content="HTML5, CSS" />
+    <meta name="author" content="Олег" />
+    <title>Путешествие по России</title>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
+  <body class="root">
+    <section class="popup">
+      <div class="popup__elements">
+        <div class="popup__close-button"></div>
+        <form class="popup__container">
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <fieldset class="popup__input-container">
+            <input
+              type="text"
+              class="popup__item"
+              id="name"
+              name="name"
+              placeholder="Жак-Ив Кусто"
+              required
+            />
+            <input
+              type="text"
+              class="popup__item"
+              id="description"
+              name="description"
+              placeholder="Исследователь океана"
+              required
+            />
+            <input type="submit" value="Сохранить" class="popup__button" />
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <header class="header">
+      <img
+        src="images/logo/logo_white.svg"
+        alt="Логотип Mesto Russia"
+        class="header__logo"
+      />
+    </header>
+    <main class="content">
+      <section class="profile">
+        <div class="profile__info">
+          <img
+            src="images/Avatar.png"
+            alt="Фото Кусто"
+            class="profile__avatar"
+          />
+          <div class="profile__about">
+            <div class="profile__title-edit">
+              <h1 class="profile__title">Жак-Ив Кусто</h1>
+              <input type="button" class="profile__edit-button" />
+            </div>
+            <p class="profile__subtitle">Исследователь океана</p>
+          </div>
+        </div>
+        <input type="button" class="profile__add-button" />
+      </section>
+      <section class="places">
+        <article class="place">
+          <img
+            src="images/karachaevsk.png"
+            alt="Церковь в Карачаевске"
+            class="place__image"
+          />
+          <div class="place__item">
+            <h2 class="place__title">Карачаевск</h2>
+            <img
+              src="images/ic_favorite.svg"
+              alt="Избранное"
+              class="place__favorite"
+            />
+          </div>
+        </article>
+        <article class="place">
+          <img
+            src="images/gora-elbrus.png"
+            alt="Гора за горами"
+            class="place__image"
+          />
+          <div class="place__item">
+            <h2 class="place__title">Гора Эльбрус</h2>
+            <img
+              src="images/ic_favorite.svg"
+              alt="Избранное"
+              class="place__favorite"
+            />
+          </div>
+        </article>
+        <article class="place">
+          <img
+            src="images/dombay.png"
+            alt="Вершина горы"
+            class="place__image"
+          />
+          <div class="place__item">
+            <h2 class="place__title">Домбай</h2>
+            <img
+              src="images/ic_favorite.svg"
+              alt="Избранное"
+              class="place__favorite"
+            />
+          </div>
+        </article>
+        <article class="place">
+          <img
+            src="images/gora-elbrus.png"
+            alt="Гора за горами"
+            class="place__image"
+          />
+          <div class="place__item">
+            <h2 class="place__title">Гора Эльбрус</h2>
+            <img
+              src="images/ic_favorite.svg"
+              alt="Избранное"
+              class="place__favorite"
+            />
+          </div>
+        </article>
+        <article class="place">
+          <img
+            src="images/dombay.png"
+            alt="Вершина горы"
+            class="place__image"
+          />
+          <div class="place__item">
+            <h2 class="place__title">Домбай</h2>
+            <img
+              src="images/ic_favorite.svg"
+              alt="Избранное"
+              class="place__favorite"
+            />
+          </div>
+        </article>
+        <article class="place">
+          <img
+            src="images/karachaevsk.png"
+            alt="Церковь в Карачаевске"
+            class="place__image"
+          />
+          <div class="place__item">
+            <h2 class="place__title">Карачаевск</h2>
+            <img
+              src="images/ic_favorite.svg"
+              alt="Избранное"
+              class="place__favorite"
+            />
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2022 Mesto Russia</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+.profile__title-edit {
+  max-width: min(100%, 336px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+}
+
+@media screen and (max-width: 460px) {
+  .profile__title-edit {
+    max-width: min(100%, 282px);
+    gap: 10px;
+  }
+}
