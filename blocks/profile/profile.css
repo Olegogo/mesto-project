@@ -9,9 +9,10 @@
   gap: 30px;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 768px) {
   .profile {
-    max-width: min(100%, 680px);
+    max-width: min(100%, 768px);
+    margin: 42px auto 36px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -23,5 +24,9 @@
   .profile {
     max-width: min(91%, 460px);
     margin: 42px auto 36px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0px;
   }
 }

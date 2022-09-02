@@ -3,13 +3,19 @@
   display: flex;
   flex-direction: row;
   text-align: left;
-  justify-content: space-between;
   gap: 30px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 768px) {
   .profile__info {
-    max-width: min(100%, 282px);
+    max-width: min(100%, 768px);
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .profile__info {
+    max-width: min(100%, 550px);
     flex-direction: column;
     text-align: center;
     align-items: center;

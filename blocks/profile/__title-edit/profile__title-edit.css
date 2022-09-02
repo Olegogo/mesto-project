@@ -1,14 +1,22 @@
 .profile__title-edit {
-  max-width: min(100%, 336px);
+  max-width: 100%;
+  min-width: 336px;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 18px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 768px) {
   .profile__title-edit {
-    max-width: min(100%, 282px);
+    max-width: min(100%, 768px);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .profile__title-edit {
+    max-width: min(100%, 550px);
+    justify-content: center;
     gap: 10px;
   }
 }
