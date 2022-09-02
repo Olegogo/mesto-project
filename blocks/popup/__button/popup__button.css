@@ -18,13 +18,12 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 520px) {
   .popup__button {
-    width: 238px;
+    max-width: 250px;
     height: 46px;
     font-size: 14px;
     letter-spacing: 1.1;
-    font-weight: 400;
     margin-top: 45px;
   }
 }

@@ -1,13 +1,16 @@
 .place__favorite {
-  display: flex;
-  width: 24px;
-  height: 24px;
+  padding-top: 6px;
+  max-width: 24px;
+  width: 100%;
   background-image: url(../../../images/ic_favorite.svg);
   background-position: center center;
   background-repeat: no-repeat;
   cursor: pointer;
   opacity: 1;
   transition: 0.4s;
+  background-color: transparent;
+  border: none;
+  font-size: 0;
 }
 
 .place__favorite:hover {
@@ -16,13 +19,6 @@
 }
 
 .place__favorite:active {
-  display: flex;
-  width: 24px;
-  height: 24px;
   background-image: url(../../../images/ic_favorite_fill.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  cursor: pointer;
   opacity: 1;
-  transition: 0;
 }

@@ -1,7 +1,6 @@
 .root {
   margin: auto;
-  padding: 45px 48px 60px 48px;
-  max-width: min(100%, 1280px);
+  max-width: min(100%, 880px);
   min-width: 320px;
   font-family: "Inter", Arial, sans-serif;
   color: #fff;
@@ -18,16 +17,13 @@
 
 @media screen and (max-width: 1024px) {
   .root {
-    padding: 45px 32px 60px 32px;
-    max-width: min(100%, 1024px);
-    min-width: 461px;
+    padding: 0 32px 0 32px;
   }
 }
 
 @media screen and (max-width: 460px) {
   .root {
-    padding: 28px 19px 36px 19px;
+    padding: 0;
     max-width: min(100%, 460px);
-    min-width: 320px;
   }
 }

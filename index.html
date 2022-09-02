@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,33 +14,37 @@
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body class="root">
-    <section class="popup">
-      <div class="popup__elements">
-        <div class="popup__close-button"></div>
-        <form class="popup__container">
-          <h2 class="popup__title">Редактировать профиль</h2>
-          <fieldset class="popup__input-container">
-            <input
-              type="text"
-              class="popup__item"
-              id="name"
-              name="name"
-              placeholder="Жак-Ив Кусто"
-              required
-            />
-            <input
-              type="text"
-              class="popup__item"
-              id="description"
-              name="description"
-              placeholder="Исследователь океана"
-              required
-            />
-            <input type="submit" value="Сохранить" class="popup__button" />
-          </fieldset>
-        </form>
-      </div>
-    </section>
+    <div class="popup">
+      <form class="popup__container" name="form1">
+        <button
+          type="reset"
+          value="Закрыть"
+          class="popup__close-button"
+        ></button>
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <fieldset class="popup__input-container">
+          <input
+            type="text"
+            value="Жак-Ив Кусто"
+            class="popup__item"
+            id="name"
+            name="name"
+            placeholder="Имя"
+            required
+          />
+          <input
+            type="text"
+            value="Исследователь океана"
+            class="popup__item"
+            id="description"
+            name="description"
+            placeholder="Увлечение"
+            required
+          />
+        </fieldset>
+        <input type="submit" value="Сохранить" class="popup__button" />
+      </form>
+    </div>
     <header class="header">
       <img
         src="images/logo/logo_white.svg"
@@ -52,19 +56,27 @@
       <section class="profile">
         <div class="profile__info">
           <img
-            src="images/Avatar.png"
+            src="images/foto-kusto.jpg"
             alt="Фото Кусто"
             class="profile__avatar"
           />
           <div class="profile__about">
             <div class="profile__title-edit">
               <h1 class="profile__title">Жак-Ив Кусто</h1>
-              <input type="button" class="profile__edit-button" />
+              <button
+                type="button"
+                value="Редактировать"
+                class="profile__edit-button"
+              ></button>
             </div>
             <p class="profile__subtitle">Исследователь океана</p>
           </div>
         </div>
-        <input type="button" class="profile__add-button" />
+        <button
+          type="button"
+          value="Добавить"
+          class="profile__add-button"
+        ></button>
       </section>
       <section class="places">
         <article class="place">
@@ -75,11 +87,11 @@
           />
           <div class="place__item">
             <h2 class="place__title">Карачаевск</h2>
-            <img
-              src="images/ic_favorite.svg"
-              alt="Избранное"
+            <button
+              type="button"
+              value="В избранное"
               class="place__favorite"
-            />
+            ></button>
           </div>
         </article>
         <article class="place">
@@ -90,11 +102,11 @@
           />
           <div class="place__item">
             <h2 class="place__title">Гора Эльбрус</h2>
-            <img
-              src="images/ic_favorite.svg"
-              alt="Избранное"
+            <button
+              type="button"
+              value="В избранное"
               class="place__favorite"
-            />
+            ></button>
           </div>
         </article>
         <article class="place">
@@ -105,11 +117,11 @@
           />
           <div class="place__item">
             <h2 class="place__title">Домбай</h2>
-            <img
-              src="images/ic_favorite.svg"
-              alt="Избранное"
+            <button
+              type="button"
+              value="В избранное"
               class="place__favorite"
-            />
+            ></button>
           </div>
         </article>
         <article class="place">
@@ -120,11 +132,11 @@
           />
           <div class="place__item">
             <h2 class="place__title">Гора Эльбрус</h2>
-            <img
-              src="images/ic_favorite.svg"
-              alt="Избранное"
+            <button
+              type="button"
+              value="В избранное"
               class="place__favorite"
-            />
+            ></button>
           </div>
         </article>
         <article class="place">
@@ -135,11 +147,11 @@
           />
           <div class="place__item">
             <h2 class="place__title">Домбай</h2>
-            <img
-              src="images/ic_favorite.svg"
-              alt="Избранное"
+            <button
+              type="button"
+              value="В избранное"
               class="place__favorite"
-            />
+            ></button>
           </div>
         </article>
         <article class="place">
@@ -150,11 +162,11 @@
           />
           <div class="place__item">
             <h2 class="place__title">Карачаевск</h2>
-            <img
-              src="images/ic_favorite.svg"
-              alt="Избранное"
+            <button
+              type="button"
+              value="В избранное"
               class="place__favorite"
-            />
+            ></button>
           </div>
         </article>
       </section>
