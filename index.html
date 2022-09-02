@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="pages/index.css" />
   </head>
   <body class="root">
-    <div class="popup">
-      <form class="popup__container" name="form1">
+    <div class="popup popup_opened">
+      <div class="popup__container">
         <button
-          type="reset"
+          type="button"
           value="Закрыть"
           class="popup__close-button"
         ></button>
@@ -42,8 +42,10 @@
             required
           />
         </fieldset>
+        <form name="form1"></form>
         <input type="submit" value="Сохранить" class="popup__button" />
-      </form>
+        </form>
+      </div>
     </div>
     <header class="header">
       <div class="header__logo-container">

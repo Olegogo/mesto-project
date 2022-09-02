@@ -4,6 +4,9 @@
 /src/environments/environment.prod.ts
 /certificates
 
+# project files
+settings.json
+
 # compiled output
 /dist
 /tmp
