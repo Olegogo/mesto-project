@@ -12,12 +12,6 @@
 
 @media screen and (max-width: 550px) {
   .profile__subtitle {
-    font-size: 3vw;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .profile__subtitle {
     max-width: 100%;
     font-size: 14px;
   }

@@ -1,7 +1,6 @@
 .place__favorite {
-  padding-top: 6px;
-  max-width: 24px;
-  width: 100%;
+  min-width: 22px;
+  min-height: 22px;
   background-image: url(../../../images/ic_favorite.svg);
   background-position: center center;
   background-repeat: no-repeat;
