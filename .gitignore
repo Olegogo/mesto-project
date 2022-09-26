@@ -6,6 +6,7 @@
 
 # project files
 settings.json
+*.css.map
 
 # compiled output
 /dist
