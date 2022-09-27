@@ -85,6 +85,4 @@ function initialCardsALL(placeName, placeLink) {
   places.prepend(placeCard);
 }
 
-for (let i = 0; i < initialCards.length; i++) {
-  initialCardsAdd(initialCards[i].name, initialCards[i].link);
-}
+
