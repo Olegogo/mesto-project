@@ -74,8 +74,9 @@ const initialCards = [
   },
 ];
 
+const placesCard = document.querySelector('.places').content;
+
 function initialCardsALL(placeName, placeLink) {
-  const placesCard = document.querySelector('.places').content;
   const placeCard = document.querySelector('.place').cloneNode(true);
 
   placeCard.querySelector('.place__title').textContent = placeName;
