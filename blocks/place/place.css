@@ -1,8 +1,0 @@
-.place {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  color: #000;
-  border-radius: 10px;
-  overflow: hidden;
-}

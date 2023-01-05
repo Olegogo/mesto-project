@@ -10,3 +10,6 @@
 
 - HTML
 - CSS
+- JavaScript
+
+**Cсылка на GitHub Pages**

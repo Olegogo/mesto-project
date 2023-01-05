@@ -2,6 +2,7 @@
   max-width: min(100%, 1280px);
   min-width: 282px;
   margin: 0 auto;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(3, minmax(224px, max-content));
   gap: 20px 16px;
@@ -9,13 +10,12 @@
 
 @media screen and (max-width: 768px) {
   .places {
-    grid-template-columns: repeat(2, minmax(192px, 344px));
+    grid-template-columns: repeat(2, minmax(192px, max-content));
   }
 }
 
 @media screen and (max-width: 460px) {
   .places {
-    max-width: min(88%, 460px);
-    grid-template-columns: repeat(1, minmax(282px, 460px));
+    grid-template-columns: repeat(1, minmax(282px, max-content));
   }
 }

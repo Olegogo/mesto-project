@@ -1,0 +1,6 @@
+.page__content {
+  max-width: 902px;
+  min-width: 280px;
+  margin: 0 auto;
+  padding: 0 20px 0;
+}
