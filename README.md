@@ -17,4 +17,4 @@
 
 **Cсылка на GitHub Pages**
 
-https://olegogo.github.io/mesto-project.github.io/
+https://olegogo.github.io/mesto-project/
