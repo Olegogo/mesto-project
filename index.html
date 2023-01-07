@@ -12,7 +12,8 @@
     <meta name="author" content="Олег" />
     <title>Путешествие по России</title>
     <link rel="stylesheet" href="pages/index.css" />
-    <script src="./scripts/script.js" defer></script>
+    <script src="./scripts/cards.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
   </head>
   <body class="page">
     <div class="page__content">
@@ -64,10 +65,9 @@
               class="popup__close-button"
             ></button>
             <h2 class="popup__title">Редактировать профиль</h2>
-              <fieldset class="popup__input-container">
+              <div class="popup__input-container">
                 <input
                   type="text"
-                  value="Жак-Ив Кусто"
                   class="popup__item popup__item_type_name"
                   name="name"
                   placeholder="Имя"
@@ -75,14 +75,13 @@
                 />
                 <input
                   type="text"
-                  value="Исследователь океана"
                   class="popup__item popup__item_type_description"
                   name="description"
                   placeholder="Увлечение"
                   required
                 />
               <button type="submit" value="Сохранить" class="popup__save-button">Сохранить</button>
-            </fieldset>
+            </div>
           </form>
         </div>
 
@@ -94,7 +93,7 @@
               class="popup__close-button"
             ></button>
             <h2 class="popup__title">Новое место</h2>
-              <fieldset class="popup__input-container">
+              <div class="popup__input-container">
                 <input
                   type="text"
                   class="popup__item popup__item_type_place"
@@ -110,7 +109,7 @@
                   required
                 />
               <button type="submit" value="Создать" class="popup__save-button">Создать</button>
-            </fieldset>
+            </div>
           </form>
         </div>
 
